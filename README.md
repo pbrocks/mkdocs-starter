@@ -14,7 +14,7 @@ mkdocs new mkdocs-starter
 curl 'https://pbrocks.work/mkdocs/mkdocs-starter.md' > README.md
 ```
 
-Above is for Github; below is for MkDocs.
+Above ☝️ is for Github; below 👇 is for MkDocs.
 
 ```sh
 cp README.md about.md 
