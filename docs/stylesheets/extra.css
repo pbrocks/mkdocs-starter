@@ -1,0 +1,19 @@
+div.wy-grid-for-nav > section > div > div > div:nth-child(2) > div > p > a {
+    border: 1px solid #2980B9;
+    background: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.wy-grid-for-nav > .wy-nav-side.stickynav {
+	background: #903c3c;
+}
+.wy-nav-content {
+    background: mintcream;
+}
+table > tbody > tr > td {
+	font-size: 85%;
+}
+body > div.wy-grid-for-nav > section > div > div > div:nth-child(2) > div > p:nth-child(2) > a {
+    border: none;
+    background: none;
+}

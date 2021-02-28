@@ -1,11 +1,9 @@
-# Building mkdocs-starter
-
-Starter files for MkDocs Documentation
+# Building a mkdocs-site
 
 ## Creating and Setup
 
 ```sh
-mkdocs new mkdocs-starter
+mkdocs new mkdocs-site
 ```
 
 ### Starter READme Page
@@ -20,7 +18,7 @@ Above is for Github; below is for MkDocs.
 cp README.md about.md 
 ```
 
-Search and replace `mkdocs-starter` and `MkDocs Site` as necessary.
+Search and replace `mkdocs-site` and `MkDocs Site` as necessary.
 
 ### Sample Layout Page
 
@@ -57,11 +55,55 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+- [Heading](#heading)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
 
-## Customize
 
-### Theme
+# Heading levels
 
-### Plugins
+> This is a fixture to test heading levels
 
+<!-- toc -->
 
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading
+
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading
+
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading

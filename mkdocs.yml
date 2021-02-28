@@ -1,0 +1,9 @@
+site_name: Doc Site Title
+nav:
+    - Home: index.md
+    - About: about.md
+    - Layout: layout.md
+    - Table of Contents: toc.md
+theme: readthedocs
+extra_css:
+    - stylesheets/extra.css

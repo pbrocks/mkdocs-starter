@@ -1,11 +1,9 @@
-# Building mkdocs-starter
-
-Starter files for MkDocs Documentation
+# Building a mkdocs-site
 
 ## Creating and Setup
 
 ```sh
-mkdocs new mkdocs-starter
+mkdocs new mkdocs-site
 ```
 
 ### Starter READme Page
@@ -20,7 +18,7 @@ Above is for Github; below is for MkDocs.
 cp README.md about.md 
 ```
 
-Search and replace `mkdocs-starter` and `MkDocs Site` as necessary.
+Search and replace `mkdocs-site` and `MkDocs Site` as necessary.
 
 ### Sample Layout Page
 

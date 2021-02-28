@@ -1,11 +1,9 @@
-# Building mkdocs-starter
-
-Starter files for MkDocs Documentation
+# Building a mkdocs-site
 
 ## Creating and Setup
 
 ```sh
-mkdocs new mkdocs-starter
+mkdocs new mkdocs-site
 ```
 
 ### Starter READme Page
@@ -14,28 +12,19 @@ mkdocs new mkdocs-starter
 curl 'https://pbrocks.work/mkdocs/mkdocs-starter.md' > README.md
 ```
 
-Above is for Github; below is for MkDocs.
+### Sample About Page
 
 ```sh
-cp README.md about.md 
-```
-
-Search and replace `mkdocs-starter` and `MkDocs Site` as necessary.
-
-### Sample Layout Page
-
-```sh
-curl 'https://jaspervdj.be/lorem-markdownum/markdown.txt' > docs/layout.md
+curl 'https://jaspervdj.be/lorem-markdownum/markdown.txt' > docs/about.md
 ```
 
 ### mkdocs.yml
 
 ```yml
-site_name: MkDocs Site Title
+site_name: Site Title
 nav:
     - Home: index.md
     - About: about.md
-    - Layout: layout.md
 theme: readthedocs
 ```
 
@@ -56,12 +45,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-
-
-## Customize
-
-### Theme
-
-### Plugins
-
-
